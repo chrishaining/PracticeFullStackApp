@@ -1,6 +1,6 @@
-package com.codeclan.NewsProject.repositories;
+package com.codeclan.practiceNewsApp.repositories;
 
-import com.codeclan.NewsProject.models.Article;
+import com.codeclan.practiceNewsApp.models.Article;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 
