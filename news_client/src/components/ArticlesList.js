@@ -15,7 +15,7 @@ class ArticlesList extends Component {
         return(
             <Fragment>
             <h3>Das ist der NewsList</h3>
-            {articlesNodes}
+            <ul>{articlesNodes}</ul>
             </Fragment>
         )
     }
