@@ -14,7 +14,7 @@ class NewsContainer extends Component {
                     headline: "Nuns in shoot-em-up drama",
                     summary: "Some nuns were involved in a video game incident.",
                     story: "Yesterday in Kuala Lumpur, some nuns on vacation from Lima were caught playing a violent video game.",
-                    journalist: "Nelly Mangod"
+                    journalist: "Nelly Mango"
                 },
                 {
                     id: 2,
@@ -29,7 +29,7 @@ class NewsContainer extends Component {
                 {
                     id: 1,
                     firstName: "Nelly",
-                    lastName: "Mangod",
+                    lastName: "Mango",
                     phoneNumber: "7890123",
                     articles: [{
                         id: 1,
@@ -37,7 +37,7 @@ class NewsContainer extends Component {
                         headline: "Nuns in shoot-em-up drama",
                         summary: "Some nuns were involved in a video game incident.",
                         story: "Yesterday in Kuala Lumpur, some nuns on vacation from Lima were caught playing a violent video game.",
-                        journalist: "Nelly Mangod"
+                        journalist: "Nelly Mango"
                     }]
                 },
 
