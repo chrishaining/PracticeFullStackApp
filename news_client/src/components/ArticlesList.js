@@ -14,7 +14,7 @@ class ArticlesList extends Component {
 
         return(
             <Fragment>
-            <h3>Das ist der NewsList</h3>
+            <h3>Hier ist die Liste der Nachrichtenartikel:</h3>
             <ul>{articlesNodes}</ul>
             </Fragment>
         )

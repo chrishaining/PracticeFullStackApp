@@ -6,7 +6,7 @@ class Article extends Component {
     render() {
         return(
         <Fragment>
-            <li>{this.props.article.headline}</li>
+            <li>{this.props.article.journalist}: {this.props.article.headline}</li>
         </Fragment>
         )
     }

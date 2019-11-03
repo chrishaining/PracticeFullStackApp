@@ -1,5 +1,7 @@
 import React, { Component, Fragment } from 'react'
 import ArticlesList from '../components/ArticlesList'
+import JournalistsList from '../components/JournalistsList'
+
 
 class NewsContainer extends Component {
     constructor(props) {
@@ -62,8 +64,10 @@ class NewsContainer extends Component {
     render() {
         return (
             <Fragment>
-            <h2>This is the NewsContainer</h2>
+            <h2>Wilkommen in unserer App</h2>
             <ArticlesList articles={this.state.articles}/>
+            <JournalistsList journalists={this.state.journalists}/>
+
             </Fragment>
         )
     }
